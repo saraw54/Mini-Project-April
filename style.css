@@ -1,0 +1,66 @@
+.nav {
+    background-color: white;
+    overflow: hidden;
+  }
+  .nav {
+    float: right;
+  }
+
+  .nav a {
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+
+  .nav a:hover {
+    background-color: purple;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: blue;
+    color: white;
+  }
+
+    * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    background-color: beige;
+    text-align: center;
+
+    }
+
+img {
+    max-width: 30%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#caption {
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.contact {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
